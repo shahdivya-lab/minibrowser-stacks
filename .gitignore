@@ -1,0 +1,9 @@
+# build output
+minibrowser
+*.o
+*.out
+build/
+
+# editor/OS junk
+.vscode/
+.DS_Store
