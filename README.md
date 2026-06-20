@@ -5,7 +5,7 @@ HTML tag validation and browser history navigation.
 
 ## 1. HTML Tag Validator (`include/html_validator.hpp`)
 
-Checks that HTML tags are properly opened, closed, and nested — the exact
+Checks that HTML tags are properly opened, closed, and nested - the exact
 same problem as validating matched brackets `( [ { } ] )`, just with
 `<tag>` / `</tag>` instead of brackets.
 
