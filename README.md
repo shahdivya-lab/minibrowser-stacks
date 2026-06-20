@@ -20,8 +20,8 @@ closed, and nested.
 
 ## 2. Browser History (`include/browser_history.hpp`)
 
-Models back/forward navigation with **two stacks** — `backStack` and
-`forwardStack` — plus a pointer to the current page. Browser history is implemented using two stacks:
+Models back/forward navigation with **two stacks** - `backStack` and
+`forwardStack` - plus a pointer to the current page. Browser history is implemented using two stacks:
 
 - `visit(url)` → push current page onto `backStack`, go to the new page,
   and clear `forwardStack` (a new navigation invalidates old forward history)
