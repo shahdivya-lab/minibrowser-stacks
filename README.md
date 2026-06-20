@@ -42,13 +42,3 @@ The program first runs the validator against five test cases (valid
 nesting, mismatched tags, unclosed tags, stray closing tags), then drops
 into an interactive REPL where you can type `visit <url>`, `back`,
 `forward`, `current`, `exit`.
-
-## Why this is the right scope for me right now
-
-I know stacks solidly — that's it for now. Rather than copy something I
-can't defend, I picked two problems that are entirely stack-based but are
-also genuinely how real browsers work under the hood, so I can explain
-every line of this if asked. Graphs, parsing pipelines, and the actual
-Chromium codebase are the next things I want to learn — this is meant as
-proof I can already think about a real engine's problems with the tools I
-currently have, not a finished product.
