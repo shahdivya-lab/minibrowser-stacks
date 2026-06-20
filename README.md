@@ -1,8 +1,7 @@
 # MiniBrowser (Stack Edition)
 
-Two small, self-contained demonstrations of how browsers actually use
-**stacks** internally — built with nothing beyond arrays, strings, and
-`std::stack`.
+A C++ project demonstrating two practical applications of stacks:
+HTML tag validation and browser history navigation.
 
 ## 1. HTML Tag Validator (`include/html_validator.hpp`)
 
